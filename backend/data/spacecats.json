@@ -18,7 +18,7 @@
         "profession": "Astronaut",
         "city": "Jersey City",
         "planets": [
-            "Venus", "Jupiter", "Earth"
+            "Saturn", "Jupiter", "Earth"
         ]
     },
     {
@@ -29,7 +29,7 @@
         "profession": "Astronaut",
         "city": "New York City",
         "planets": [
-            "Mars", "Saturn", "Earth"
+            "Mars", "Venus", "Earth"
         ]
     }
 ]
