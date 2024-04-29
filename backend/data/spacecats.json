@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "name": "Friedrich",
+        "image": "spacecat1.jpg",
+        "description": "Friedrich is a space cat. He is very good at catching mice and loves to play with yarn.",
+        "profession": "Astronaut",
+        "city": "New York City",
+        "planets": [
+            "Earth", "Mars", "Jupiter"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Helga",
+        "image": "spacecat2.jpg",
+        "description": "Helga loves to joke around with her friends and is always up for a good time. She is a very good listener and loves to help others.",
+        "profession": "Astronaut",
+        "city": "Jersey City",
+        "planets": [
+            "Venus", "Jupiter", "Earth"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Johann",
+        "image": "spacecat3.jpg",
+        "description": "Johann is a very curious cat. He loves to explore new places and meet new people. He is always up for an adventure.",
+        "profession": "Astronaut",
+        "city": "New York City",
+        "planets": [
+            "Mars", "Saturn", "Earth"
+        ]
+    }
+]

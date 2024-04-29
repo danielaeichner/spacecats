@@ -1,0 +1,19 @@
+{
+  "name": "spacecat-backend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "serverless offline start",
+    "lint": "eslint --fix --ext .tsx --ignore-path .gitignore .",
+    "typecheck": "tsc --noEmit",
+    "test": "LOG_LEVEL=error jest"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.137",
+    "esbuild": "^0.20.2",
+    "serverless": "^3.38.0",
+    "serverless-esbuild": "^1.52.1",
+    "serverless-offline": "^13.5.0",
+    "typescript": "^5.4.5"
+  }
+}

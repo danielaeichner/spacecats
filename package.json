@@ -1,0 +1,36 @@
+{
+  "name": "spacecat",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --fix --ext .tsx --ignore-path .gitignore .",
+    "typecheck": "tsc --noEmit",
+    "test": "LOG_LEVEL=error jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "next": "^14.2.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@types/aws-lambda": "^8.10.137",
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.7",
+    "autoprefixer": "^10.4.14",
+    "eslint": "^8.41.0",
+    "eslint-config-next": "^13.4.4",
+    "fork-ts-checker-webpack-plugin": "^8.0.0",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.3.2",
+    "ts-loader": "^9.4.3",
+    "typescript": "^5.0.4",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
